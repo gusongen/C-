@@ -1084,17 +1084,11 @@ printf("Over!Thank you!");
 */
 
 /*
-#include<stdio.h>
-int main()
-{
-   printf("Press a key and then press Enter:") ;
-   putchar(getchar()+32);
-   printf("\n");
 
-}
 
 */
-/*求三角形面积。输入三角形的三个边长，计算三角形的面积。设三角形的三个边长分别为a、b、c，为简单起见，我们认为输入的三个边长数据是正确的，可以组成一个三角形。
+/*http://172.20.2.51.cqu.pt/train/q.aspx?session_id=ce38770954dd4f70bef7d1edb26d6a5f&auth_id=42bd8fbd50a94353805b21088280fb89
+求三角形面积。输入三角形的三个边长，计算三角形的面积。设三角形的三个边长分别为a、b、c，为简单起见，我们认为输入的三个边长数据是正确的，可以组成一个三角形。
 **输入格式要求："%f,%f,%f"  提示信息："Enter 3 floats:"
 **输出格式要求："area=%.2f\n"
 程序运行示例如下：
@@ -3019,23 +3013,18 @@ int main()
     scanf("%lf",&t);
     printf("The fahr is: %.2f",t*9/5+32);
 }*/
-/*写一个程序从键盘输入两个整数，然后显示第1个整数占第二个整数的百分比，保留到小数点后1位。例如输入5和40，程序输出结果如下：
-   5 is 12.5 percent of 40
 
-**输入格式要求："%d%d" 提示信息："请输入两个整数："
-**输出格式要求："%d is %.1f percent of %d"*/
-/*
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=57859f3c982645ecb8d14a3911ada7a6&auth_id=42bd8fbd50a94353805b21088280fb89
+// #include<stdio.h>
+// int main()
+// {
+//     int a ,b;
+//     printf("请输入两个整数：");
+//     scanf("%d%d",&a,&b);
+//     printf("%d is %.1f percent of %d",a,((float)a/b)*100,b);
+// }
 
-#include<stdio.h>
-int main()
-{
-    int a ,b;
-    printf("请输入两个整数：");
-    scanf("%d%d",&a,&b);
-    printf("%d is %.1f percent of %d",a,((float)a/b)*100,b);
-}
-
-*//*13个人围成一圈，从第1个人开始顺序报号1、2、3，凡报到3的人退出圈子。找出最后留在圈子里的人原来的序号。要求用结构体编程实现。
+/*13个人围成一圈，从第1个人开始顺序报号1、2、3，凡报到3的人退出圈子。找出最后留在圈子里的人原来的序号。要求用结构体编程实现。
 程序的运行示例如下：
 出圈成员及顺序：  3  6  9 12  2  7 11  4 10  5  1  8
 最后的成员是： 13
@@ -3532,15 +3521,8 @@ int main()
 printf("请输入半径的值：");
 scanf("%f",&r);
 printf("半径为%5.2f的圆的面积为%5.1f,圆的周长为%5.1f\n" ,r,pi*r*r,2*pi*r);}**/
-/*
-#include <stdio.h>
 
-main()
-{ int n;
-   printf( "Please input your age: ");
-scanf("%d",&n);
-printf("The heart beats in your life: %d",n*60*24*365);
-}*/
+
 /*#include <stdio.h>
 
 int main()
@@ -4767,8 +4749,21 @@ printf("Over!Thank you!");
 }
 
 */
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=6dba867c55294dda9940111cb0670d92&auth_id=42bd8fbd50a94353805b21088280fb89
+// #include<stdio.h>
+// int main()
+// {int x=0,n,n0;
+// printf("Please enter a positive integer: ");
+// scanf("%d",&n);
+// n0=n;
+// for(;n!=0;)
+// { x*=10;
+// x+=n%10;
+// n/=10;
+// }
+// printf("%d-->%d",n0,x);}
 
-/*
+/*//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=d148642e542e4d888533ecd852d8d5f2&auth_id=42bd8fbd50a94353805b21088280fb89
 #include<stdio.h>
 int main()
 {
@@ -4777,8 +4772,56 @@ int main()
    printf("\n");
 
 }
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=7e44b5c0228d4141a7c66c3305884e1a&auth_id=42bd8fbd50a94353805b21088280fb89
+// #include<stdio.h>
+// #include<math.h>
+// int main()
+// {int a,c=0;
+// printf("input data is:" );
+// scanf("%d",&a);
+
+// a=fabs(a);
+// for(;a!=0;)
+// { 
+// c+=a%10;
+// a/=10;}
+// printf("The sum of the total bit is %d\n",c);}
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=2e9bb4f901d34af1b735cc42715019ae&auth_id=42bd8fbd50a94353805b21088280fb89
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=21da0d39d7204eabaffab94c19afa220&auth_id=42bd8fbd50a94353805b21088280fb89
+// #include<stdio.h>
+// int main()
+// {int a,b;
+// printf("请输入两个整数：");
+// scanf("%d%d",&a,&b);
+// printf("%13d Remainder = %d\n       ------\n%5d ) %5d",a/b,a%b,b,a);}
+
+
 
 */
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=fefdde3cac9d467383fdae203aff485b&auth_id=42bd8fbd50a94353805b21088280fb89
+#include<stdio.h>
+int main()
+{
+    printf("Please input fahr: ");
+    
+}
+
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=e64a8262f6a4435aa089a5f399c831ec&auth_id=42bd8fbd50a94353805b21088280fb89
+#include<stdio.h>
+int main()
+{ float a;
+printf("Please input fahr: ");
+scanf("%f",&a);
+printf("The cels is: %.2f",5.0 *(a- 32.0)/ 9.0);}
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=cb6a4208395d4996ae09865ea00583ec&auth_id=42bd8fbd50a94353805b21088280fb89
+#include<stdio.h>
+#define a 11.5 
+#define b 2.5
+#define c 10 
+int main()
+{printf("area=%.2f,volume=%.2f",2*(a*b+b*c+c*a),a*b*c);}
+//area=337.50,volume=287.50
+
 /*求三角形面积。输入三角形的三个边长，计算三角形的面积。设三角形的三个边长分别为a、b、c，为简单起见，我们认为输入的三个边长数据是正确的，可以组成一个三角形。
 **输入格式要求："%f,%f,%f"  提示信息："Enter 3 floats:"
 **输出格式要求："area=%.2f\n"
@@ -4799,7 +4842,7 @@ p=(a+b+c)/2;
 
 
 }
-
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=738af976e29443f5952c3f5b3450c623&auth_id=42bd8fbd50a94353805b21088280fb89
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -7167,7 +7210,14 @@ printf("%d 的真因数之和为：\n",x);
 
 }
 
-
+def rev():
+    x=int(input())
+    b=re.sub('0b','',bin(x))
+    str="0"*(32-len(b))+b
+    str=str[::-1]
+    ans=int(str,2)
+    return ans
+rev()
 
 int main()
 {
@@ -8521,8 +8571,12 @@ printf("The maximum is %, which is in row %d, colum %d",a[maxid],maxid/4,maxid%4
 
 
 
-
-
+//http://172.20.2.51.cqu.pt/train/q.aspx?session_id=949e8e31ff584cb98b2873cfd40c4ac2&auth_id=42bd8fbd50a94353805b21088280fb89
+// #include<stdio.h>
+// int main()
+// {char c;
+// scanf("%c",&c);
+// printf("%c,%d",c-32,c-32);}
 
 //http://172.20.2.51.cqu.pt/train/q.aspx?session_id=1d9f86d2701c4920ba961cfd792e1be6&auth_id=bbf3076d8ea5436db522d5c2327251ab
 // #include <stdio.h>
@@ -8613,3 +8667,14 @@ void  Squeeze(char *s, char c)
     *(s+j)= '\0';
 
 }
+
+
+
+public static void Main()
+{
+    if(1==1){
+        string name = "seven";
+    }
+    Console.WriteLine(name);
+}
+// 报错
